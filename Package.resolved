@@ -1,0 +1,24 @@
+{
+  "originHash" : "a7d7ce8f477a376e9b41e304ae2fbc4b1b74b172bf72c7cd4b41880f3ea8c09b",
+  "pins" : [
+    {
+      "identity" : "scanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AbdallahEsam/scanner.git",
+      "state" : {
+        "revision" : "8d54e5c7b773afd3d19a064976a89125226a3278",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "scannerlic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AbdallahEsam/scannerLic.git",
+      "state" : {
+        "revision" : "f9bd413df212c9a0e9cf1ca8352b2d5b1f71e251",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
