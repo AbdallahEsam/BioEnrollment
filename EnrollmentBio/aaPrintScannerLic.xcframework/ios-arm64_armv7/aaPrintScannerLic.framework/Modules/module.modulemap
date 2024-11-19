@@ -1,0 +1,6 @@
+framework module aaPrintScannerLic {
+  umbrella header "aaPrintScannerLic.h"
+
+  export *
+  module * { export * }
+}
