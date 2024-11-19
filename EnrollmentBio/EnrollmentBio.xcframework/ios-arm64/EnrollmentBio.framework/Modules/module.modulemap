@@ -1,0 +1,6 @@
+framework module EnrollmentBio {
+  umbrella header "EnrollmentBio.h"
+  export *
+
+  module * { export * }
+}
