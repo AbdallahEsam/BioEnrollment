@@ -34,13 +34,13 @@ let package = Package(
         ),
         
         .target(
-            name: "EnrollmentBio",
+            name: "FrameworkCWrapper",  // Use a different name for the wrapper target
             dependencies: [
-                "aaPrintScannerLic",  // Add dependency on FrameworkA
-                "aaPrintScannerFw"   // Add dependency on FrameworkB
+                "EnrollmentBio",  // Add FrameworkA as a dependency
+                "aaPrintScannerLic",  // Add FrameworkB as a dependency
+                "aaPrintScannerFw"   // Add FrameworkC as a dependency (if needed for compilation)
             ]
         )
-        
     ]
 )
 
