@@ -17,17 +17,28 @@ let package = Package(
 
     
     targets: [
+        
         .binaryTarget(
             name: "EnrollmentBio",
             path: "EnrollmentBio/EnrollmentBio.xcframework"
         ),
+        
         .binaryTarget(
             name: "aaPrintScannerLic",
             path: "EnrollmentBio/aaPrintScannerLic.xcframework"
         ),
+        
         .binaryTarget(
             name: "aaPrintScannerFw",
             path: "EnrollmentBio/aaPrintScannerFw.xcframework"
+        ),
+        
+        .target(
+            name: "EnrollmentBio",
+            dependencies: [
+                "aaPrintScannerLic",  // Add dependency on FrameworkA
+                "aaPrintScannerFw"   // Add dependency on FrameworkB
+            ]
         )
         
     ]
